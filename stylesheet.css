@@ -1,0 +1,129 @@
+* {
+	margin:0;
+	padding: 0;
+
+}
+body{
+	font-family: Copperplate Gothic;
+}
+header,.top-wrapper,.main-section,.bottom-section,footer{
+	width: 90%;
+	margin: auto;
+}
+header{
+	color: black;
+	height: 10vh;
+}
+header a {
+	text-decoration: none;
+	color: black;
+	margin-left: 40px;
+}
+.dots
+{
+	color: darkcyan;
+}
+.head-cont {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top:35px;
+	margin-left: 10px;
+}
+.mid-portion p {
+	margin-left: 40px;
+}
+.top-wrapper{
+	display: flex;
+	justify-content: space-around;
+	letter-spacing: 4px;
+	height: 90vh;
+}
+.myimage {
+	margin-top: 75%;
+	height: 250px;
+	width: 250px;
+	border: 2px solid darkcyan;
+}
+.top-content{
+	margin-top: 110px;
+	padding: 20px 75px;
+	border-left: 2px solid darkcyan;
+	margin-bottom: 38px;
+	margin-left: 20px;
+}
+.top-content h1{
+	font-size: 74px;
+}
+.top-content h2{
+	font-size: 44px;
+}
+.top-content p {
+	margin-top: 25px;
+	line-height: 25px;
+}
+.main-section h1 {
+	padding: 5px;
+	border-bottom: 2px solid darkcyan;
+}
+.main-section p {
+	margin-top: 20px;
+}
+.main-section ul{
+	margin-top: 20px;
+}
+.main-section li{
+	padding: 5px;
+}
+.about-conts p{
+	text-align: center;
+	padding: 20px 80px;
+	font-family: arial;
+	font-style: italic;
+	border: 2px solid darkcyan;
+}
+.skills {
+	margin-top: 30px;
+}
+.bottom-section{
+	padding: 10px;
+	margin-top: 30px;
+	border-bottom: 2px solid darkcyan;
+
+}
+.contact-form h2 {
+	width: 300px;
+	border-bottom: 2px solid darkcyan;
+	padding-bottom: 15px;
+}
+.form-contents{
+	margin-top: 20px;
+}
+.form-contents p {
+	margin-top:4px;
+	margin-bottom: 3px;
+}
+.form-contents input{
+	width: 300px;
+}
+.form-contents textarea{
+	width: 300px;
+}
+.send{
+	border: 1px solid darkcyan;
+	padding: 4px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+footer{
+	margin-top: 4px;	
+	height: 8vh;
+	font-size: 18px;
+	padding: 5px;
+}
+footer p {
+	padding-top: 8px;
+}
