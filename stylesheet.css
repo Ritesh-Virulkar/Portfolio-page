@@ -75,6 +75,26 @@ header a {
 .main-section li{
 	padding: 5px;
 }
+.githubIcon {
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 5px;
+	color: black
+}
+.githubIcon:hover {
+	background-color: black;
+	color: white;
+}
+.insta {
+	border: 1px solid purple;
+	text-decoration: none;
+	padding: 5px;
+	color: purple;
+}
+.insta:hover {
+	background-color: purple;
+	color: white;
+}
 .about-conts p{
 	text-align: center;
 	padding: 20px 80px;
@@ -126,4 +146,59 @@ footer{
 }
 footer p {
 	padding-top: 8px;
+}
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+	.top-wrapper{
+		flex-direction: column;
+	}
+	.myimage {
+		margin-top: 250px;
+		margin-left: 90px;
+		height: 250px;
+		width: 250px;
+		border: 2px solid darkcyan;
+	}
+	.top-content{
+		margin-top: 50px;
+		padding: 20px 75px;
+		border-top: 2px solid darkcyan;
+		border-left: none;
+		margin-bottom: 38px;
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+	.top-content h1{
+		font-size: 44px;
+		text-align: center;
+	}
+	.top-content h2{
+		font-size: 24px;
+		text-align: center;
+	}
+	.top-content p {
+		margin-top: 25px;
+		line-height: 25px;
+		text-align: center;
+	}
+	.main-section{
+		margin-top:200px;
+		text-align: center;
+	}
+	.contact-form h2 {
+		width: 300px;
+		border-bottom: 2px solid darkcyan;
+		padding-bottom: 15px;
+		margin-left:66px;
+	}
+	.bottom-section{
+		text-align:center;
+	}
+	footer{
+		text-align: center;
+	}
+	.main-section li{
+		list-style: none;
+	}
 }
